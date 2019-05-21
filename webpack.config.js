@@ -60,7 +60,7 @@ module.exports = {
         options: { appendTsSuffixTo: [/\.vue$/], transpileOnly: true }
       },
       {
-        test: /\.(png|jpe?g|gif)$/,
+        test: /\.(png|jpe?g|gif|woff|woff2|ttf|svg|eot)$/,
         use: [
           {
             loader: 'file-loader',
